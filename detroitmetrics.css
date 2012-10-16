@@ -1,0 +1,29 @@
+﻿body, html {
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    font-size: 110%;
+    font-family: Helvetica;
+}
+
+#head {
+	background-color:#E6E8FA;
+	text-align:center;
+	height:85px;
+}
+
+#title {
+	font-size:300%;
+	color:#000000;
+	font-weight:bold;
+	text-decoration:none;
+}
+
+#head, #body {
+	padding:15px;
+}
+
+#text, #menu, #pulldown, #dateN {
+	font-size: 100%;
+}

@@ -1,0 +1,65 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<title>Detroit Metrics</title>
+	<link rel="stylesheet" type="text/css" href="detroitmetrics.css" />
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+	<script type="text/javascript" src="detroitmetrics.js"></script>
+</head>
+
+<body>
+
+<div id="head">
+	<a id="title" href="index.htm">Detroit Metrics</a>
+	<div id="sub">
+		<div id="text" style="float:left">
+			Dynamically-generated quality-of-life metrics that measure how well Detroit's leaders are doing:
+		</div>
+		<div id="menu" style="float:right">
+			<select id="pulldown">
+				<option value="index.htm">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  ---- other data ---- </option>
+				<option value="detroit_residents.htm">Detroit Residents</option>
+				<option value="detroit_murder_rate.htm">Detroit & MI Murder Rates</option>
+				<option value="detroit_leaders.htm">Detroit's Leaders</option>
+				<option value="detroit_violent_crimes.htm">Detroit Violent Crimes</option>
+				<option value="detroit_city_budget.htm">Detroit City Budget</option>
+				<option value="michigan_gdp.htm">Michigan GDP</option>
+			</select>
+			&nbsp;
+			<a href="about.htm">about</a>
+		</div>
+	</div>
+</div>
+
+<div id="body" style="clear:both">
+Add data:
+<form action="">
+<p></p>
+Type: <select id="pulldown">
+	<option value="0.htm">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; --- data ---- </option>
+	<option value="1.htm">New business</option>
+	<option value="2.htm">New building permit</option>
+	<option value="4.htm">New resident</option>
+	<option value="3.htm">House sale</option>
+	<option value="5.htm">Robbery</option>
+	<option value="6.htm">Assault</option>
+	<option value="7.htm">Murder</option>
+</select>
+<p></p>
+Date: <input type="text" size="18" id="dateN" />
+<p></p>
+<div>
+	<div style="valign:top;width:50px">Desc: </div>
+	<div><textarea cols="60" rows="5"></textarea></div>
+</div>
+<p></p>
+<input type="button" value="Submit" onclick="alert('Sorry.  This is just a proof of concept and this input will not be added to the database.')" />
+</form>
+<p></p>
+<br/>
+<p></p>
+<i>Note that the input form function has been disabled but is here to show how residents and 
+city employees in locations a, b and c can input data, and residents and state and 
+federal officials in locations x, y and z can see how things are going in real time.</i>
+</body>
+</html>
